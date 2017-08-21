@@ -1,0 +1,27 @@
+{
+  "name": "mern-stack-application",
+  "version": "1.0.0",
+  "description": "A Blog kind of application using MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunnyPatel29/MERN-stack-application.git"
+  },
+  "author": "Sunny Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SunnyPatel29/MERN-stack-application/issues"
+  },
+  "homepage": "https://github.com/SunnyPatel29/MERN-stack-application#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
